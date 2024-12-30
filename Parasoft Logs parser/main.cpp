@@ -162,7 +162,7 @@ int main() {
         }
 
         // Choose a file
-        size_t choice;
+        size_t choice=0;
         std::cout << "Enter the number of the file to process: ";
         std::cin >> choice;
 

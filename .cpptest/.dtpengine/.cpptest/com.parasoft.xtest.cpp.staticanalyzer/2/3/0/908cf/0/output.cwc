@@ -1,0 +1,170 @@
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRACPP2023-9_5_1-a
+<b>The 'for' loop-bound and loop-step should be constant-expressions or should be variables that are not modified within the 'for' statement
+<l>160
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRACPP2023-9_5_2-a
+<b>The for-range-initializer contains 2 function calls
+<l>147
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRACPP2023-7_0_3-a
+<b>There shall be no conversion from type 'int' to type 'char'
+<l>194
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>FORMAT-50
+<b>The right hand operand of the '&&' operator should be in parentheses
+<l>148
+<k>44
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>FORMAT-50
+<b>The left hand operand of the '||' operator should be in parentheses
+<l>169
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>FORMAT-50
+<b>The right hand operand of the '||' operator should be in parentheses
+<l>169
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>FORMAT-50
+<b>The left hand operand of the '||' operator should be in parentheses
+<l>198
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>FORMAT-50
+<b>The right hand operand of the '||' operator should be in parentheses
+<l>198
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRA-023
+<b>Function 'parseLogFile' has external linkage and is not declared in the header
+<l>27
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRA-023
+<b>Function 'writeCSV' has external linkage and is not declared in the header
+<l>94
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>MISRA-023
+<b>Function 'extractDateFromFilename' has external linkage and is not declared in the header
+<l>118
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'LogEntry' type in the global namespace
+<l>10
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'parseLogFile' function in the global namespace
+<l>27
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'writeCSV' function in the global namespace
+<l>94
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'extractDateFromFilename' function in the global namespace
+<l>118
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>CODSTA-CPP-58
+<b>Unused function's 'create_directories' return value
+<l>139
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
+<c>EXCEPT-06
+<b>The 'main' function does not contain a catch(...) to catch all unhandled exceptions
+<l>127
+<k>5
+<s>false
+<N>
+<f>
+<L>0

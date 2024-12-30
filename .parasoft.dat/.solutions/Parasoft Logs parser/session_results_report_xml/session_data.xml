@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ResultsSession>
+   <SessionData configName="MISRA C++ 2023" configPseudoUrl="c++test.builtin://MISRA C++ 2023" enabledAnalysis="Static" enabledHandlers="com.parasoft.xtest.checkers.api.scope.factory;com.parasoft.xtest.checkers.api.standards.factory" hasViols="true" header="??:Parasoft Logs parser:??true??false??" runId="" startTime="1735586305066" tool="c++test">
+      <Authors>
+         <Author id="dev1" name="danie"/>
+      </Authors>
+      <Selection>
+         <Res id="Parasoft Logs parser/Parasoft Logs parser/Source Files/main.cpp"/>
+      </Selection>
+      <XmlDataFiles file0="C:\Users\danie\source\repos\Parasoft Logs parser\.parasoft.dat\.solutions\Parasoft Logs parser\session_results_report_xml\cs_violations.xml"/>
+   </SessionData>
+   <Locations>
+      <Loc fsPath="C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp" loc="Parasoft Logs parser/Parasoft Logs parser/Source Files/main.cpp" projPath="Parasoft Logs parser/Parasoft Logs parser" project="Parasoft Logs parser"/>
+   </Locations>
+   <CodingStandards>
+      <TestedFilesDetails>
+         <Total name="Suppressed / Total" supp="0" total="17">
+            <Project name="Parasoft Logs parser" supp="0" total="17">
+               <Res name="Source Files" supp="0" total="17">
+                  <Res loc="Parasoft Logs parser/Parasoft Logs parser/Source Files/main.cpp" locType="sr" name="main.cpp" supp="0" total="17"/>
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+</ResultsSession>
