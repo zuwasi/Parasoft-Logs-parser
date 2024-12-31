@@ -205,9 +205,9 @@ int main() {
     return 0;
 }
 #endif
-//this is the end of teh one file version 
+//this is the end of the one file version 
 
-//this is teh main of teh 3 files version 
+//this is the main of the 3 files version 
 
 #include "log_processor.h"
 #include <iostream>
@@ -248,7 +248,7 @@ int main() {
             std::cout << i + 1 << ". " << logFiles[i] << std::endl;
         }
 
-        size_t choice;
+        size_t choice=0;
         std::cout << "Enter the number of the file to process: ";
         std::cin >> choice;
 
@@ -270,7 +270,7 @@ int main() {
 
         std::cout << "Log file copied and converted to CSV: " << csvFilePath << std::endl;
 
-        char userChoice;
+        char userChoice= '\0'; // Initialize to the null character (safe, neutral value)
         std::cout << "Would you like to analyze another file? (y/n): ";
         std::cin >> userChoice;
 

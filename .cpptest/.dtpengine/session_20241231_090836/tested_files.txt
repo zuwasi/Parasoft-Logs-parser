@@ -1,0 +1,4 @@
+/Parasoft Logs parser/Source Files/main.cpp
+1=/Parasoft Logs parser/Header Files/log_processor.h
+/Parasoft Logs parser/Source Files/log_processor.cpp
+1

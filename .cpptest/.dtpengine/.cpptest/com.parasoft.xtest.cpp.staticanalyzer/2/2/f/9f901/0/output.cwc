@@ -1,0 +1,70 @@
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'parseLogFile' function in the global namespace
+<l>11
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'writeCSV' function in the global namespace
+<l>48
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.cpp
+<c>CODSTA-CPP-36
+<b>Do not declare the 'extractDateFromFilename' function in the global namespace
+<l>70
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.h
+<c>CODSTA-CPP-36
+<b>Do not declare the 'LogEntry' type in the global namespace
+<l>8
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.h
+<c>CODSTA-CPP-36
+<b>Do not declare the 'parseLogFile' function in the global namespace
+<l>25
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.h
+<c>CODSTA-CPP-36
+<b>Do not declare the 'writeCSV' function in the global namespace
+<l>26
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\log_processor.h
+<c>CODSTA-CPP-36
+<b>Do not declare the 'extractDateFromFilename' function in the global namespace
+<l>27
+<k>13
+<s>false
+<N>
+<f>
+<L>0

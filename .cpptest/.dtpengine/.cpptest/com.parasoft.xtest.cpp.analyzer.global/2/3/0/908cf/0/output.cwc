@@ -1,99 +1,9 @@
 <->
 <F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
 <c>INTERNAL-GLOBAL-COMPATDECLS
-<b>EXTERN_LINKAGE_FUNC_SIGN='parseLogFile(const std::string&)', EXTERN_LINKAGE_FUNC_RET_TYPE=['std::vector<LogEntry, std::allocator<LogEntry>>']
-<l>27
-<k>23
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-COMPATDECLS
-<b>EXTERN_LINKAGE_FUNC_SIGN='writeCSV(const std::string&, const std::vector<LogEntry, std::allocator<LogEntry>> &)', EXTERN_LINKAGE_FUNC_RET_TYPE=['void']
-<l>94
-<k>6
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-COMPATDECLS
-<b>EXTERN_LINKAGE_FUNC_SIGN='extractDateFromFilename(const std::string&)', EXTERN_LINKAGE_FUNC_RET_TYPE=['std::string']
-<l>118
-<k>13
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-COMPATDECLS
 <b>EXTERN_LINKAGE_FUNC_SIGN='main', EXTERN_LINKAGE_FUNC_RET_TYPE=['int']
-<l>127
+<l>218
 <k>5
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-ONEDEFRULE
-<b>EXTERN_LINKAGE_FUN_USED='parseLogFile(const std::string&)'
-<l>27
-<k>23
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-ONEDEFRULE
-<b>EXTERN_LINKAGE_FUN_USED='extractDateFromFilename(const std::string&)'
-<l>118
-<k>13
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-ONEDEFRULE
-<b>EXTERN_LINKAGE_FUN_USED='writeCSV(const std::string&, const std::vector<LogEntry, std::allocator<LogEntry>> &)'
-<l>94
-<k>6
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-PREDICATENOSE
-<b>PERSISTENT_SIDE_EFFECT='FUNCTION' NAME='parseLogFile(conststd::string&)'
-<l>27
-<k>23
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-PREDICATENOSE
-<b>PERSISTENT_SIDE_EFFECT='FUNCTION' NAME='writeCSV(conststd::string&,conststd::vector<LogEntry,std::allocator<LogEntry>>&)'
-<l>94
-<k>6
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-PREDICATENOSE
-<b>PERSISTENT_SIDE_EFFECT='FUNCTION' NAME='extractDateFromFilename(conststd::string&)'
-<l>118
-<k>13
 <s>false
 <N>
 <f>
@@ -102,38 +12,8 @@
 <F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
 <c>INTERNAL-GLOBAL-PREDICATENOSE
 <b>PERSISTENT_SIDE_EFFECT='FUNCTION' NAME='main'
-<l>127
+<l>218
 <k>5
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXTERNDEF
-<b>EXTERN_LINKAGE_FUNCTION='parseLogFile(const std::string&)'
-<l>27
-<k>23
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXTERNDEF
-<b>EXTERN_LINKAGE_FUNCTION='writeCSV(const std::string&, const std::vector<LogEntry, std::allocator<LogEntry>> &)'
-<l>94
-<k>6
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXTERNDEF
-<b>EXTERN_LINKAGE_FUNCTION='extractDateFromFilename(const std::string&)'
-<l>118
-<k>13
 <s>false
 <N>
 <f>
@@ -142,48 +22,8 @@
 <F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
 <c>INTERNAL-GLOBAL-EXTERNDEF
 <b>EXTERN_LINKAGE_FUNCTION='main'
-<l>127
+<l>218
 <k>5
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-ONETYPEDECL
-<b>DEF_NON_TEMPL_TYPE='LogEntry'
-<l>10
-<k>8
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXCEPTSPECDECL
-<b>EXTERN_LINKAGE_FUNCTION_DECL='parseLogFile(const std::string&)', EXCEPTION_SPECIFICATION=''
-<l>27
-<k>23
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXCEPTSPECDECL
-<b>EXTERN_LINKAGE_FUNCTION_DECL='writeCSV(const std::string&, const std::vector<LogEntry, std::allocator<LogEntry>> &)', EXCEPTION_SPECIFICATION=''
-<l>94
-<k>6
-<s>false
-<N>
-<f>
-<L>0
-<->
-<F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
-<c>INTERNAL-GLOBAL-EXCEPTSPECDECL
-<b>EXTERN_LINKAGE_FUNCTION_DECL='extractDateFromFilename(const std::string&)', EXCEPTION_SPECIFICATION=''
-<l>118
-<k>13
 <s>false
 <N>
 <f>
@@ -192,7 +32,7 @@
 <F>C:\Users\danie\source\repos\Parasoft Logs parser\Parasoft Logs parser\main.cpp
 <c>INTERNAL-GLOBAL-EXCEPTSPECDECL
 <b>EXTERN_LINKAGE_FUNCTION_DECL='main', EXCEPTION_SPECIFICATION=''
-<l>127
+<l>218
 <k>5
 <s>false
 <N>

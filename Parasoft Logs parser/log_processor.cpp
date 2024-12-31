@@ -1,5 +1,5 @@
 
-//this is the seconed file of teh 3 files version
+//this is the seconed file of the 3 files version
 #include "log_processor.h"
 #include <iostream>
 #include <fstream>
