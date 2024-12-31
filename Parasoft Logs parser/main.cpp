@@ -1,3 +1,5 @@
+//This is a version where every thing in one big file, as good practice I'm now breaking it to 3 smaller files for ease of maintenance and testing 
+#if 0
 #include <iostream>
 #include <filesystem>
 #include <fstream>
@@ -191,6 +193,83 @@ int main() {
         std::cout << "Log file copied and converted to CSV: " << csvFilePath << std::endl;
 
         // Ask user if they want to analyze another file
+        char userChoice;
+        std::cout << "Would you like to analyze another file? (y/n): ";
+        std::cin >> userChoice;
+
+        if (userChoice == 'n' || userChoice == 'N') {
+            continueAnalyzing = false;
+        }
+    }
+
+    return 0;
+}
+#endif
+//this is the end of teh one file version 
+
+//this is teh main of teh 3 files version 
+
+#include "log_processor.h"
+#include <iostream>
+#include <filesystem>
+
+namespace fs = std::filesystem;
+
+int main() {
+    const std::string sourceDir = "C:\\ProgramData\\Parasoft\\DTP\\logs";
+    const std::string destinationDir = "C:\\usage_logs_parasoft-analyzed";
+
+    if (!fs::exists(sourceDir)) {
+        std::cerr << "Source directory does not exist: " << sourceDir << std::endl;
+        return 1;
+    }
+
+    if (!fs::exists(destinationDir)) {
+        fs::create_directories(destinationDir);
+    }
+
+    bool continueAnalyzing = true;
+
+    while (continueAnalyzing) {
+        std::vector<std::string> logFiles;
+        for (const auto& entry : fs::directory_iterator(sourceDir)) {
+            if (entry.is_regular_file() && entry.path().filename().string().find("ls_access.log") == 0) {
+                logFiles.push_back(entry.path().string());
+            }
+        }
+
+        if (logFiles.empty()) {
+            std::cout << "No log files found in directory." << std::endl;
+            return 0;
+        }
+
+        std::cout << "Found log files:" << std::endl;
+        for (size_t i = 0; i < logFiles.size(); ++i) {
+            std::cout << i + 1 << ". " << logFiles[i] << std::endl;
+        }
+
+        size_t choice;
+        std::cout << "Enter the number of the file to process: ";
+        std::cin >> choice;
+
+        if (choice < 1 || choice > logFiles.size()) {
+            std::cerr << "Invalid choice." << std::endl;
+            return 1;
+        }
+
+        const std::string selectedFile = logFiles[choice - 1];
+        const std::string destinationFile = destinationDir + "\\" + fs::path(selectedFile).filename().string();
+
+        fs::copy(selectedFile, destinationFile, fs::copy_options::overwrite_existing);
+
+        auto entries = parseLogFile(selectedFile);
+        auto date = extractDateFromFilename(fs::path(selectedFile).filename().string());
+        auto csvFilePath = destinationDir + "\\parsed_log_" + date + ".csv";
+
+        writeCSV(csvFilePath, entries);
+
+        std::cout << "Log file copied and converted to CSV: " << csvFilePath << std::endl;
+
         char userChoice;
         std::cout << "Would you like to analyze another file? (y/n): ";
         std::cin >> userChoice;
